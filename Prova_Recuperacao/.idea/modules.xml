@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aquario/Aquario.iml" filepath="$PROJECT_DIR$/Aquario/Aquario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cifra_de_Cesar/Cifra_de_Cesar.iml" filepath="$PROJECT_DIR$/Cifra_de_Cesar/Cifra_de_Cesar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Prova_Recuperacao.iml" filepath="$PROJECT_DIR$/Prova_Recuperacao.iml" />
+    </modules>
+  </component>
+</project>

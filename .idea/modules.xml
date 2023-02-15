@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Biblioteca Universal/Biblioteca Universal.iml" filepath="$PROJECT_DIR$/Biblioteca Universal/Biblioteca Universal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Carro/Carro.iml" filepath="$PROJECT_DIR$/Carro/Carro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Estudo/Estudo.iml" filepath="$PROJECT_DIR$/Estudo/Estudo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicio de Metodos/Exercicio de Metodos.iml" filepath="$PROJECT_DIR$/Exercicio de Metodos/Exercicio de Metodos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encapsulamento(Orientado a objeto)/ExerciciosAula4.iml" filepath="$PROJECT_DIR$/Encapsulamento(Orientado a objeto)/ExerciciosAula4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Heranca/Formas/Formas.iml" filepath="$PROJECT_DIR$/Heranca/Formas/Formas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Heranca/Heranca.iml" filepath="$PROJECT_DIR$/Heranca/Heranca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interface/Interface.iml" filepath="$PROJECT_DIR$/Interface/Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA.iml" filepath="$PROJECT_DIR$/JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MySQL/MySQL.iml" filepath="$PROJECT_DIR$/MySQL/MySQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Paradigmas1/Paradigmas1.iml" filepath="$PROJECT_DIR$/Paradigmas1/Paradigmas1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Prova1/Prova1.iml" filepath="$PROJECT_DIR$/Prova1/Prova1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Revisao_para_prova/Revisao.iml" filepath="$PROJECT_DIR$/Revisao_para_prova/Revisao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reflexao_concorrencia_exceçao/TESTE.iml" filepath="$PROJECT_DIR$/Reflexao_concorrencia_exceçao/TESTE.iml" />
+    </modules>
+  </component>
+</project>
