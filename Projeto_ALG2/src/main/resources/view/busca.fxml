@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nutricionista.telas.busca">
+   <children>
+      <TextField fx:id="campoNomeCliente" layoutX="46.0" layoutY="38.0" onAction="#inputCampoNome" promptText="Nome do cliente" />
+      <ComboBox fx:id="comboAlimentacao" disable="true" layoutX="46.0" layoutY="76.0" onAction="#changeAlimentacao" prefHeight="25.0" prefWidth="150.0" promptText="Ver alimentação" />
+      <ComboBox fx:id="comboRestricao" disable="true" layoutX="225.0" layoutY="76.0" onAction="#changeRestricao" prefHeight="25.0" prefWidth="150.0" promptText="Ver restrição" />
+      <ComboBox fx:id="comboRemedio" disable="true" layoutX="402.0" layoutY="76.0" onAction="#changeRemedio" prefHeight="25.0" prefWidth="150.0" promptText="Ver remédio" />
+      <VBox fx:id="dadosCliente" layoutX="26.0" layoutY="129.0" prefHeight="238.0" prefWidth="507.0" style="-fx-border-color: gray;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Selecione um cliente para exibir seus dados aqui" textAlignment="CENTER" wrappingWidth="505.84375">
+               <VBox.margin>
+                  <Insets top="80.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>

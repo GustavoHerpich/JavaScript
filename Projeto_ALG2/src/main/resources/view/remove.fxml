@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nutricionista.telas.remove">
+   <children>
+      <TextField fx:id="campoNomeCliente" layoutX="28.0" layoutY="38.0" onAction="#inputCampoNome" promptText="Nome do cliente" />
+      <ComboBox fx:id="comboAlimentacao" disable="true" layoutX="28.0" layoutY="91.0" onAction="#changeAlimentacao" prefHeight="25.0" prefWidth="249.0" promptText="Selecione alimentação para remover" />
+      <Button fx:id="botaoAlimentacao" disable="true" layoutX="310.0" layoutY="91.0" mnemonicParsing="false" onAction="#removeAlimentacao" text="Remover alimentação" />
+      <ComboBox fx:id="comboRestricao" disable="true" layoutX="28.0" layoutY="138.0" onAction="#changeRestricao" prefHeight="25.0" prefWidth="249.0" promptText="Selecione restrição para remover" />
+      <Button fx:id="botaoRestricao" disable="true" layoutX="310.0" layoutY="138.0" mnemonicParsing="false" onAction="#removeRestricao" text="Remover restrição" />
+      <ComboBox fx:id="comboRemedio" disable="true" layoutX="28.0" layoutY="187.0" onAction="#changeRemedio" prefHeight="25.0" prefWidth="249.0" promptText="Selecione remédio para remover" />
+      <Button fx:id="botaoRemedio" disable="true" layoutX="310.0" layoutY="187.0" mnemonicParsing="false" onAction="#removeRemedio" text="Remover remédio" />
+      <Button fx:id="botaoCliente" disable="true" layoutX="450.0" layoutY="327.0" mnemonicParsing="false" onAction="#removeCliente" text="Remover cliente" />
+   </children>
+</AnchorPane>
